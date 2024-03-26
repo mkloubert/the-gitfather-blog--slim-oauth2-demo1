@@ -1,0 +1,12 @@
+.idea/
+/coverage/
+/vendor/
+/logs/*
+!/logs/README.md
+.phpunit.result.cache
+
+# custom
+/var/cache
+/TODOs.md
+env*.local
+/sandbox.*
