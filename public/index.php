@@ -71,7 +71,7 @@ $checkJWT = function(Request $request, RequestHandler $handler) use ($app, $clie
 
             return $handler->handle($request);
         } catch (Exception $ex) {
-            // parseing failed
+            // parsing failed
         }
     }
 
